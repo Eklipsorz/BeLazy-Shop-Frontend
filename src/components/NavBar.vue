@@ -54,11 +54,17 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/All.scss";
+
 .navbar {
   position: relative;
+
   .navbar-toggler {
     position: absolute;
     right: 20px;
   }
+}
+
+.navbar {
+  display: block;
 }
 </style>
